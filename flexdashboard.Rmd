@@ -1,0 +1,73 @@
+---
+title: "FlexDashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("rest_inspec")
+
+nyc_rest <- rest_inspec |> 
+  filter(
+    !is.na(score), 
+    inspection_date >= as.Date("2017-06-01"), 
+    grade %in% c("A", "B", "C"),
+    boro %in% c("MANHATTAN", "BROOKLYN", "QUEENS", "BRONX", "STATEN ISLAND") 
+  )
+
+```
+
+
+Row {data-width=650}
+-----------------------------------------------------------------------
+
+### Grade Distribution by Borough
+
+```{r}
+nyc_rest |> 
+  group_by(boro, grade) |> 
+  summarize(count = n(), .groups = "drop") |> 
+  plot_ly(x = ~boro, y = ~count, color = ~grade, type = "bar") |> 
+  layout(title = "Distribution of Inspection Grades by Borough",
+         xaxis = list(title = "Borough"),
+         yaxis = list(title = "Count"),
+         barmode = 'stack')
+```
+
+Row {data-width=350}
+-----------------------------------------------------------------------
+
+### Inspection Score over Time
+
+```{r}
+nyc_rest |> 
+  mutate(inspection_year = as.Date(inspection_date)) |> 
+  plot_ly(x = ~boro, y = ~score, color = ~boro, type = "violin", meanline = list(visible = TRUE)) |> 
+  layout(
+    title = "Distribution of Inspection Scores by Borough",
+    xaxis = list(title = "Borough"),
+    yaxis = list(title = "Score")
+  )
+```
+
+Row {data-width=350}
+-----------------------------------------------------------------------
+
+### Score Distribution by Borough
+
+```{r}
+nyc_rest |> 
+  plot_ly(y = ~score, color = ~boro, type = "box") |> 
+  layout(title = "Score Distribution by Borough",
+         yaxis = list(title = "Score"))
+
+```

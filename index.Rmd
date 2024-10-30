@@ -10,7 +10,7 @@ output:
 
 **Welcome to Zhang's website.**
 
-# About Zhang (sz3214)
+# About Zhang
 
 Zhang is currently MPH student in Biostatistics at Columbia University. More to be explored on [CV](about-CV.html).
 

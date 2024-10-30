@@ -1,0 +1,24 @@
+---
+title: "sz3214"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+
+**Welcome to Zhang's website.**
+
+# About Zhang (sz3214)
+
+Zhang is currently MPH student in Biostatistics at Columbia University. More to be explored on [CV](about-CV.html).
+
+
+# Publications
+
+[Zhang, S. Effect of Drug Injection and Stimulated Learning on Trisomic Mice Expressions of APP and SOD1. In 2022 International Conference on Biological, Engineering and Medical Science (ICBioMed 2022).](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12611/126115G/Effect-of-drug-injection-and-stimulated-learning-on-trisomic-mice/10.1117/12.2669963.short)
+
+
+
+

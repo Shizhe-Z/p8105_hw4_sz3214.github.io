@@ -1,0 +1,59 @@
+---
+title: "About Zhang"
+---
+
+## Education
+
+**Columbia University in the City of New York (08/2023-present)**
+
+- *Master in Public Health* in Biostatistics with Advanced Epidemiology Certificate
+
+**University of Liverpool (09/2021-06/2023)**
+
+- *Bachelor of Science* in Genetics
+
+**Xi’an Jiaotong-Liverpool University (09/2019-06/2021)**
+
+- *Bachelor of Science* in Bioinformatics 
+
+
+## Selected Research Projects
+
+**Comprehensive Study of Biostatistics and Data Analysis (07/2022-10/2022)**
+
+- Excelled in an online, project-based course, mastering RStudio for comprehensive data analysis tasks, including regression models, statistical model visualization, and 10-fold cross-validation. 
+
+- Conducted in-depth analysis on life expectancy factors in developing countries, demonstrating proficiency in advanced RStudio techniques (e.g., ggplot, corrplot) and completed an extensive report on Trisomy 21 Syndrome.
+
+**Live-Cell Imaging to Visualize SOD1 Dimer Stabilization (07/2022-08/2022)**
+
+- Evaluated new drug efficiencies on SOD1 mutations through cell cultivation, DNA transfection, and drug testing, yielding critical insights on drug performance vs. existing treatments.
+
+
+## Internship Experience
+
+**Center for Statistical Genetics in the G.H. Sergievsky Center and Department of Neurology at Columbia University Vagelos College of Physicians and Surgeons (09/2024-)**
+
+- *Research Assistant*
+
+**South Bronx Unite, New York, NY (06/2024-08/2024)**
+
+- Collected data on the influence of greenspaces on air quality and health outcomes in South Bronx and similar areas globally.
+
+- Compared and analyzed quantitative and qualitative data.
+
+- Generated a comprehensive report highlighting the importance of improving greenspaces in South Bronx.
+
+**Harmonia Testing Technology Co., Ltd. (07/2021-08/2021)**
+
+- *Tester in the Department of Pharmacy*
+
+- Supported High-Performance Liquid Chromatography (HPLC) analyses, enhancing sample testing protocols and data reliability assessments. Leveraged Excel for data organization and applied clinical standards for test accuracy improvements.
+
+**Dynamiker Biotechnology Co., Ltd. – Research and Develop Department (06/2021-07/2021)**
+
+- *Laboratory Assistant*
+
+- Engaged in chromatography studies and immunoassay techniques for antibody detection in test kits. Executed quantitative analyses on biochemical compounds and translated critical clinical standards to facilitate research processes.
+
+
